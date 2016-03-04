@@ -15,7 +15,7 @@ You can add this role explicitly, but it's also depended upon by f500.nginx and 
 
     - hosts: servers
       roles:
-         - { role: f500.dotdeb }
+         - { role: f500.repo_dotdeb }
 
 License
 -------
